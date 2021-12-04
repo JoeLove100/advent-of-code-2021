@@ -10,6 +10,9 @@ class TestDay3A(unittest.TestCase):
         self.assertEqual(int("0b1000", 2), g)
         self.assertEqual(int("0b0111", 2), e)
 
+
+class TestDay3B(unittest.TestCase):
+
     def test_get_life_support_rating_most_common(self):
         test_numbers = ["111", "101", "010", "001"]
         rating = get_life_support_rating(test_numbers, True)
