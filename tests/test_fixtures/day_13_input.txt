@@ -1,0 +1,6 @@
+1,3
+4,7
+10,12
+
+fold along y=4
+fold along x=2
