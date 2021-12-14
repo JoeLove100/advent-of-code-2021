@@ -1,0 +1,5 @@
+ABCDE
+
+AB -> G
+HY -> P
+AG -> D
