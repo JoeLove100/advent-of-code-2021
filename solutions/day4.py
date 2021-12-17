@@ -105,3 +105,4 @@ if __name__ == "__main__":
     all_numbers, all_boards = read_input(data)
     print(get_winning_score(all_numbers, all_boards))
     print(get_final_winning_score(all_numbers, all_boards))
+

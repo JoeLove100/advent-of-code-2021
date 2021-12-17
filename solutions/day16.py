@@ -26,12 +26,15 @@ def get_packet_value_from_subvalues(version: int,
         assert len(sub_values) == 2
         value = 1 if sub_values[0] > sub_values[1] else 0
     elif version == 6:
+        # less than packet
         assert len(sub_values) == 2
         value = 1 if sub_values[1] > sub_values[0] else 0
     elif version == 7:
+        # equals packet
         assert len(sub_values) == 2
         value = 1 if sub_values[0] == sub_values[1] else 0
     else:
+        # something has gone wrong
         raise ValueError(f"Packet version {version} is not recognized!")
     return value
 
