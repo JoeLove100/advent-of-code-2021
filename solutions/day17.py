@@ -54,5 +54,5 @@ def get_valid_pair_count(x_0: int,
 if __name__ == "__main__":
 
     # first bit doesn't really require any code
-    x_0, x_1, y_0, y_1 = 20, 30, -5, -10  # check these
+    x_0, x_1, y_0, y_1 = 94, 151, -103, -156
     print(get_valid_pair_count(x_0, x_1, y_0, y_1))
