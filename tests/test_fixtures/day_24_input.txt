@@ -1,0 +1,5 @@
+inp w
+mod x y
+div y 3
+inp w
+add w z
